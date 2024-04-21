@@ -1,0 +1,14 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          custom-google:
+            clientId: 752977748267-vk3luuu2a4fkalcqtgjn8vvqq2mn7np7.apps.googleusercontent.com
+            clientSecret: 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
+            scope:
+              - email
+              - profile
+        provider:
+          custom-google:
+            issuer-uri: https://accounts.google.com
